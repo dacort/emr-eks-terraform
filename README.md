@@ -86,7 +86,7 @@ The EKS cluster can take about 10-15 minutes to provision.
 
 ## Running a job
 
-Now that your cluster is up, you should be able to run a job.
+Now that your cluster is up, you should be able to run a job. Because the [EKS cluster autoscaler](https://docs.aws.amazon.com/eks/latest/userguide/cluster-autoscaler.html) is not installed by default, if you want to anything more complicated than the example below, you'll need to scale the cluster up manually.
 
 The below example just runs a sample calculation of Pi and enables CloudWatch logging.
 
