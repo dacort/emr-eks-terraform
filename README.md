@@ -78,6 +78,7 @@ The Terraform example provisions everything you need:
 By default, Terraform will use your default AWS profile and region. 
 
 ```shell
+terraform init
 terraform apply
 ```
 
