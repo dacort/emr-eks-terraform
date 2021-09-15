@@ -10,7 +10,7 @@ Until that gets merged, you can build your own version of the AWS Provider to te
 
 ### Requirements
 
-- [Terraform](https://www.terraform.io/downloads.html) 0.12.26+ (to deploy your cluster)
+- [Terraform](https://www.terraform.io/downloads.html) v0.14+ (to use the custom provider and deploy your cluster)
 - [Go](https://golang.org/doc/install) 1.16 (to build the provider plugin)
     - Do **NOT** use Go 1.17 as it will error on [`gofmt`](https://golang.org/doc/go1.17#gofmt)
     - Also if you can not use the offical Go module proxy, the project will not build due to [this issue](https://github.com/hashicorp/terraform/issues/29442)
