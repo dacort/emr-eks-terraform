@@ -62,6 +62,6 @@ resource "kubernetes_role_binding" "emr-containers" {
   subject {
     kind      = "User"
     name      = "emr-containers"
-    namespace = "rbac.authorization.k8s.io"
+    api_group = "rbac.authorization.k8s.io"
   }
 }
