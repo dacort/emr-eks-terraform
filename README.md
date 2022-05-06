@@ -1,3 +1,9 @@
+----
+**👏 EMR on EKS is now officially supported in [v4.13.0](https://github.com/hashicorp/terraform-provider-aws/releases/tag/v4.13.0) of the AWS Provider.👏**
+
+This repository is now deprecated.
+----
+
 # EMR on EKS with Terraform
 
 There's currently a [pull request](https://github.com/hashicorp/terraform-provider-aws/pull/20003) open for EMR on EKS support in Terraform.
